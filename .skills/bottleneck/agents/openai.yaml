@@ -1,0 +1,7 @@
+interface:
+  display_name: "Bottleneck"
+  short_description: "Find the one lever that matters now"
+  default_prompt: "Use $bottleneck to identify the strongest next lever for this project."
+
+policy:
+  allow_implicit_invocation: false

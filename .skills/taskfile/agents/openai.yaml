@@ -1,0 +1,3 @@
+"display_name": "Taskfile"
+"short_description": "Create and debug Taskfile.dev automation and task CLI workflows."
+"default_prompt": "Use $taskfile when editing Taskfile.yml files or debugging task runner behavior."

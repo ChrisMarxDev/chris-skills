@@ -1,0 +1,4 @@
+interface:
+  display_name: "Core Principles"
+  short_description: "Use project principles as a gate"
+  default_prompt: "Use $core-principles to check this change against the project's core principles."

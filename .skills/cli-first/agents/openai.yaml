@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLI First"
+  short_description: "Prefer reliable command-line tools over GUI automation"
+  default_prompt: "Use $cli-first to complete this task with purpose-built CLI tools whenever possible."
