@@ -1,9 +1,9 @@
 ---
-name: github-rebase-sync
+name: git-sync
 description: Keep the current Git branch synchronized during distributed agent work. Use when beginning repository changes, checkpointing completed work, finishing a task, or explicitly asked to commit, pull, rebase, push, or sync. Commit the agent's work on the existing branch, integrate upstream changes with rebase, push, and verify remote parity.
 ---
 
-# GitHub Rebase Sync
+# Git Sync
 
 Remote synchronization is part of completing repository work. Stay on the branch
 already checked out. Commit the work you produce, pull with rebase, and push at
@@ -84,5 +84,5 @@ and point to the installed copy of this skill:
 
 > Commit your work on the current branch at coherent checkpoints and before task
 > completion. Pull with rebase, push to the branch's remote target, and verify parity.
-> Follow github-rebase-sync for shared-work ownership, conflicts, and blocked sync.
+> Follow git-sync for shared-work ownership, conflicts, and blocked sync.
 > An explicit user instruction to defer committing or pushing takes precedence.

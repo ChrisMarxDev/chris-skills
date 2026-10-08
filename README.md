@@ -10,8 +10,10 @@ for the global inventory, suggested first batch, and portability work.
 [AGENTS.md](AGENTS.md) provides Codex project instructions.
 
 The first four skills are imported: `bottleneck`, `cli-first`, `core-principles`,
-and `taskfile`. A reworked `github-rebase-sync` adds current-branch commit, rebase,
-and push as the default task-completion workflow. Further skills are under discussion. Nothing has been published
+and `taskfile`. A reworked `git-sync` adds current-branch commit, rebase,
+and push as the default task-completion workflow. `skill-finder` discovers skills
+on skills.sh with operator consultation; `chris-skills` installs selected skills
+from this collection. Further skills are under discussion. Nothing has been published
 remotely. The `.skills/` directory is our source layout;
 installation into the chosen cloud agent runtime will be handled separately.
 

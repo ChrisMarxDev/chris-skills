@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Finder"
+  short_description: "Find relevant skills and consult before installing"
+  default_prompt: "Use $skill-finder to find relevant skills and install the selection agreed with me."

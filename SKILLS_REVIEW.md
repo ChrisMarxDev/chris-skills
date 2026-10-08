@@ -9,7 +9,7 @@ for inclusion. These four have been imported unchanged from `~/.codex/skills/`,
 including their `agents/openai.yaml` files. The Codex copy of `taskfile` is the
 selected version. No license has been added yet.
 
-`github-rebase-sync` is also included, reworked to commit on the current branch
+`git-sync` is also included, reworked to commit on the current branch
 and synchronize at checkpoints and task completion. Its standing rule is recorded
 in this repository’s `AGENTS.md`.
 
@@ -51,7 +51,7 @@ System skills and plugin bundles should generally be supplied by their runtime.
 | `flutter-permission-handler` | Later batch | Useful package-specific workflow; include references and document platform build requirements. |
 | `frontend-design` | Hold | SKILL.md names LICENSE.txt, but that file is absent. Resolve provenance and missing terms. |
 | `github-issue-flow` | Later batch | Includes installer, workflow assets, and tests; review the whole bundle before public import. |
-| `github-rebase-sync` | Adapted | Current-branch commit/rebase/push workflow with remote verification and bounded race retries; standing rule in AGENTS.md. |
+| `github-rebase-sync` → `git-sync` | Adapted | Current-branch commit/rebase/push workflow with remote verification and bounded race retries; standing rule in AGENTS.md. |
 | `i-have-adhd` | Opt-in | Reusable communication preference; choose deliberately whether to publish under this personal label. |
 | `jev` | Adapt | Uses a saved local key and fixed global skill paths; use portable script resolution and runtime secrets. |
 | `persona` | Discuss | Interview/evaluation workflow with bundled reference; prefer this Codex variant over Claude copy. |
@@ -233,6 +233,13 @@ For each selected skill:
 6. Confirm the cloud runtime can discover/install the collection.
 
 Four selected skill bundles have been imported unchanged from the local Codex
-installation. A fifth, `github-rebase-sync`, was adapted for distributed work.
+installation. A fifth, `git-sync`, was adapted for distributed work.
 No credentials, plugin caches, or external symlinks were imported.
 No Git remote is configured in this checkout; no publication has been performed.
+
+## Newly authored skills
+
+- `skill-finder`: discover skills on skills.sh, consult the operator, then install
+  the approved subset and scope. Separate from the installed upstream `find-skills`.
+- `chris-skills`: resolve this collection and install selected skills for an agent.
+  Canonical remote URL is pending; an explicit local checkout works as a source.

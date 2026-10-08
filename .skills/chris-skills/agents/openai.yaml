@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chris Skills"
+  short_description: "Install selected skills from the Chris collection"
+  default_prompt: "Use $chris-skills to find relevant skills and install the selection agreed with me."
