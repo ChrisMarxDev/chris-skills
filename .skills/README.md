@@ -20,4 +20,4 @@ Selection is tracked in [SKILLS_REVIEW.md](../SKILLS_REVIEW.md). Further skills
 remain under review. Runtime discovery and installation are not configured yet.
 
 `skill-finder` and `chris-skills` are newly authored workflows. The canonical
-repository URL for `chris-skills` still needs to be supplied.
+source is [ChrisMarxDev/chris-skills](https://github.com/ChrisMarxDev/chris-skills).

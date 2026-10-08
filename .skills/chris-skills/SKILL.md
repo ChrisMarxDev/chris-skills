@@ -12,16 +12,16 @@ its inventory of other globally installed skills.
 
 ## Resolve the source
 
-This collection has not yet recorded a canonical remote URL. Use an explicit
-repository URL or collection checkout supplied by the operator. When this skill
-is still inside the source checkout at `.skills/chris-skills`, its sibling skill
-directories and the root README identify the local collection; its Git remote may
-identify the online source. Do not use the consuming project's remote as the source
-when this skill has been installed elsewhere. If source identity is unavailable,
-ask for the chris-skills URL or checkout path rather than guessing a GitHub owner.
+Canonical source: [ChrisMarxDev/chris-skills](https://github.com/ChrisMarxDev/chris-skills).
+Skills live under `.skills/` on `main`. Use this source unless the operator
+explicitly supplies a different checkout or revision. Do not use the consuming
+project's remote as the source when this skill has been installed elsewhere.
 
-Once a canonical URL is supplied while maintaining this collection, record it
-here so future agents can discover the source without that question.
+List the remote collection without installing it:
+
+```sh
+npx skills add https://github.com/ChrisMarxDev/chris-skills/tree/main/.skills --list
+```
 
 ## Choose the skills
 

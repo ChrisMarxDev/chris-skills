@@ -235,11 +235,11 @@ For each selected skill:
 Four selected skill bundles have been imported unchanged from the local Codex
 installation. A fifth, `git-sync`, was adapted for distributed work.
 No credentials, plugin caches, or external symlinks were imported.
-No Git remote is configured in this checkout; no publication has been performed.
+Public repository: [ChrisMarxDev/chris-skills](https://github.com/ChrisMarxDev/chris-skills).
 
 ## Newly authored skills
 
 - `skill-finder`: discover skills on skills.sh, consult the operator, then install
   the approved subset and scope. Separate from the installed upstream `find-skills`.
 - `chris-skills`: resolve this collection and install selected skills for an agent.
-  Canonical remote URL is pending; an explicit local checkout works as a source.
+  Canonical source: `https://github.com/ChrisMarxDev/chris-skills`.
