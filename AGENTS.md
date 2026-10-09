@@ -2,8 +2,9 @@
 
 ## Purpose and scope
 
-Move Christopher's agent setup into the cloud, starting with a curated public
-collection of skills in `.skills/<skill-name>/SKILL.md`.
+Make Christopher's agent skills portable between machines and cloud environments,
+and useful to others as a public collection in `.skills/<skill-name>/SKILL.md`.
+Keep personally vetted third-party recommendations in `external-skills.md`.
 
 This phase covers skill inventory, selection, and portability. Cloud deployment,
 credentials, agent session history, and machine configuration are outside this phase.

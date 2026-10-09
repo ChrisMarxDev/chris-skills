@@ -2,12 +2,13 @@
 
 # chris-skills
 
-A curated public collection of Christopher's agent skills, and the first step
-toward moving his agent setup into the cloud.
+Christopher's agent skills, portable between machines and cloud environments.
+The collection is public so others can use the workflows too.
 
 Skills live in [`.skills/`](.skills/). See [the publishing review](SKILLS_REVIEW.md)
 for the global inventory, suggested first batch, and portability work.
-[AGENTS.md](AGENTS.md) provides Codex project instructions.
+[External skills](external-skills.md) lists skills by others that Christopher has
+vetted and recommends. [AGENTS.md](AGENTS.md) provides Codex project instructions.
 
 The first four skills are imported: `bottleneck`, `cli-first`, `core-principles`,
 and `taskfile`. A reworked `git-sync` adds current-branch commit, rebase,

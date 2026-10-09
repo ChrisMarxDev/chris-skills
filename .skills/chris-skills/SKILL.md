@@ -1,6 +1,6 @@
 ---
 name: chris-skills
-description: Discover and install selected skills from Christopher's chris-skills repository when setting up an agent, restoring his workflow, or looking for his reusable skills. Resolve the collection source, review available skills, and install the operator's chosen subset.
+description: Discover and install selected skills from Christopher's chris-skills repository when setting up an agent, restoring his workflow, or looking for his reusable skills and vetted external recommendations. Resolve the collection source, review available skills, and install the operator's chosen subset.
 ---
 
 # Chris Skills
@@ -8,7 +8,8 @@ description: Discover and install selected skills from Christopher's chris-skill
 Use Christopher's **chris-skills** repository as a source of installable skills.
 The source collection is `.skills/<name>/SKILL.md`, with supporting files beside
 it. Install selected skill directories, not the repository's root `AGENTS.md` or
-its inventory of other globally installed skills.
+its inventory of other globally installed skills. The collection makes these
+workflows portable between machines and useful to other operators.
 
 ## Resolve the source
 
@@ -40,6 +41,15 @@ would be replaced. Wait for approval unless those specifics are already authoriz
 Explain that selecting an installation scope is part of this skill's workflow.
 Do not install every skill by default or recursively invoke this installer merely
 because it appears in the collection.
+
+## Vetted external skills
+
+Also consult [external-skills.md](https://github.com/ChrisMarxDev/chris-skills/blob/main/external-skills.md)
+when the operator wants recommendations beyond this collection. It contains
+Christopher's vetted third-party choices. Inspect their current upstream content
+and follow the same operator consultation for selection and installation scope.
+An entry in that list is a recommendation, not automatic installation approval.
+Keep third-party skills attributed to and installed from their original source.
 
 ## Install and verify
 
