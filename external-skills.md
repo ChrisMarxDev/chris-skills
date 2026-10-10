@@ -1,7 +1,8 @@
 # External skills
 
-Skills by other people that Christopher has tried, vetted, and recommends.
-These are upstream recommendations, not copies maintained in this repository.
+Skills maintained outside this collection, including Christopher’s vetted
+recommendations and potential additions. Each entry states its status; the
+skill content stays in its source repository.
 
 ## Grilling — Matt Pocock
 
@@ -22,3 +23,12 @@ npx skills add mattpocock/skills --skill grilling --agent codex
 
 Add `--global` for a user-wide installation. Agents should consult the operator
 before installing, following the `skill-finder` workflow.
+
+## Semantic Lint — Christopher Marx
+
+[Source](https://github.com/ChrisMarxDev/semantic-lint)
+
+**Status:** Potential external skill to add, suggested by Christopher on 2026-10-10.
+The actual skill will live in the `semantic-lint` repository. Consult that
+repository for the skill entrypoint and installation instructions when available,
+and confirm installation with the operator.
