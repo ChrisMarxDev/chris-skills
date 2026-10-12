@@ -32,3 +32,14 @@ before installing, following the `skill-finder` workflow.
 The actual skill will live in the `semantic-lint` repository. Consult that
 repository for the skill entrypoint and installation instructions when available,
 and confirm installation with the operator.
+
+## Knowledge Graph — Christopher Marx
+
+[Source](https://github.com/ChrisMarxDev/knowledge-graph)
+
+**Status:** General setup is in place and updated frequently, as noted by
+Christopher on 2026-10-12.
+
+The skill lives in its source repository. Read the latest repository documentation
+for the current setup and installation instructions rather than relying on a
+copied snapshot. Confirm installation with the operator.
