@@ -239,6 +239,9 @@ Public repository: [ChrisMarxDev/chris-skills](https://github.com/ChrisMarxDev/c
 
 ## Newly authored skills
 
+- `dependency-comparison`: compare software dependencies using project constraints,
+  sourced health metrics, weighted ranking, and explicit uncertainty. Newly authored
+  here; methodology sources are linked in its skill entrypoint.
 - `skill-finder`: discover skills on skills.sh, consult the operator, then install
   the approved subset and scope. Separate from the installed upstream `find-skills`.
 - `chris-skills`: resolve this collection and install selected skills for an agent.

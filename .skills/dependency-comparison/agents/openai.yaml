@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dependency Comparison"
+  short_description: "Rank dependencies by project fit and verified evidence"
+  default_prompt: "Use $dependency-comparison to compare suitable dependencies for this project, show the evidence and weighted ranking, and explain the tradeoffs."
