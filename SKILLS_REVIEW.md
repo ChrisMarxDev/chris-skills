@@ -259,3 +259,12 @@ The local `scripts/jev.py` and `scripts/batch.py` implement direct saved-key acc
 and are deliberately replaced by Executor calls, not included as dependencies.
 Batch guidance requires actual durable checkpoints rather than promising the old
 local runner's behavior. The existing global installation is unchanged.
+
+## Git Sync opt-in template (2026-10-21)
+
+Christopher requested that Git Sync not run by default globally. The global
+entrypoint is now an inactive placeholder with implicit invocation disabled.
+The original workflow and metadata are preserved in
+`.skills/git-sync/references/repository-skill.md` and
+`repository-openai.yaml` for explicitly requested repository installations.
+The collection's own existing AGENTS.md policy remains an explicit local opt-in.

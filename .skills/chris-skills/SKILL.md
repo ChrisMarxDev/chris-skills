@@ -73,9 +73,13 @@ Verify the selected files reached the target agent's installation directory and
 report source URL/path, source revision when available, names, and scope. Explain
 any runtime reload requirement without assuming installation implies activation.
 
-If `git-sync` is selected to establish an always-on workflow, also apply its
-persistent `AGENTS.md` rule in the intended project when that policy setup is
-part of the operator's request. Installing files alone does not enforce the policy.
+`git-sync` is a special opt-in template: a global installation must keep its
+inactive placeholder and `allow_implicit_invocation: false` metadata. Only when
+explicitly asked to install its active workflow into a particular repository,
+copy `.skills/git-sync/references/repository-skill.md` to that repository's
+`.agents/skills/git-sync/SKILL.md`, with the companion `repository-openai.yaml`
+as `agents/openai.yaml`. Apply its persistent `AGENTS.md` rule only when requested
+for that repository. Never activate the real workflow globally.
 
 ## Contribute skills as Christopher
 

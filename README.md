@@ -11,8 +11,8 @@ for the global inventory, suggested first batch, and portability work.
 vetted and recommends. [AGENTS.md](AGENTS.md) provides Codex project instructions.
 
 The first four skills are imported: `bottleneck`, `cli-first`, `core-principles`,
-and `taskfile`. A reworked `git-sync` adds current-branch commit, rebase,
-and push as the default task-completion workflow. `skill-finder` discovers skills
+and `taskfile`. `git-sync` is an inactive global placeholder with an opt-in repository template
+for current-branch commit, rebase, and push. `skill-finder` discovers skills
 on skills.sh with operator consultation; `chris-skills` installs selected skills
 from this collection and publishes reusable skill improvements when authenticated
 as `ChrisMarxDev`. `dependency-comparison` ranks software dependencies using

@@ -27,7 +27,7 @@ credentials, agent session history, and machine configuration are outside this p
 
 Commit your work on the current branch at coherent checkpoints and before task
 completion. Pull with rebase, push to the branch's remote target, and verify parity.
-Follow [git-sync](.skills/git-sync/SKILL.md) for shared-work
+Follow the repository’s explicitly enabled [git-sync workflow](.skills/git-sync/references/repository-skill.md) for shared-work
 ownership, conflicts, and blocked sync. An explicit user instruction to defer
 committing or pushing takes precedence. If no remote is configured, preserve the
 work in local commits and report the missing remote.
