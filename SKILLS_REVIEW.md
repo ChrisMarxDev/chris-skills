@@ -244,5 +244,7 @@ Public repository: [ChrisMarxDev/chris-skills](https://github.com/ChrisMarxDev/c
   here; methodology sources are linked in its skill entrypoint.
 - `skill-finder`: discover skills on skills.sh, consult the operator, then install
   the approved subset and scope. Separate from the installed upstream `find-skills`.
-- `chris-skills`: resolve this collection and install selected skills for an agent.
+- `chris-skills`: resolve this collection, install selected skills for an agent,
+  and publish task-scoped reusable skill improvements after verifying the effective
+  GitHub account is `ChrisMarxDev`. The global Codex copy mirrors this source.
   Canonical source: `https://github.com/ChrisMarxDev/chris-skills`.

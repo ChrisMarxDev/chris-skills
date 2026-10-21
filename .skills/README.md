@@ -7,7 +7,7 @@
 | [core-principles](core-principles/SKILL.md) | Check decisions against project principles. |
 | [git-sync](git-sync/SKILL.md) | Commit on the current branch, rebase, push, and verify remote parity. |
 | [skill-finder](skill-finder/SKILL.md) | Find skills on skills.sh and install after operator consultation. |
-| [chris-skills](chris-skills/SKILL.md) | Install a selected subset from this collection. |
+| [chris-skills](chris-skills/SKILL.md) | Fetch selected skills and publish task-scoped improvements as ChrisMarxDev. |
 | [taskfile](taskfile/SKILL.md) | Create and debug Taskfile automation. |
 
 The initial four skills were imported unchanged from Christopher's local `~/.codex/skills/` installation on

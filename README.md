@@ -14,7 +14,8 @@ The first four skills are imported: `bottleneck`, `cli-first`, `core-principles`
 and `taskfile`. A reworked `git-sync` adds current-branch commit, rebase,
 and push as the default task-completion workflow. `skill-finder` discovers skills
 on skills.sh with operator consultation; `chris-skills` installs selected skills
-from this collection. `dependency-comparison` ranks software dependencies using
+from this collection and publishes reusable skill improvements when authenticated
+as `ChrisMarxDev`. `dependency-comparison` ranks software dependencies using
 project fit, current evidence, and explicit weighted criteria. Further skills are
 under discussion. The public source is
 [ChrisMarxDev/chris-skills](https://github.com/ChrisMarxDev/chris-skills).

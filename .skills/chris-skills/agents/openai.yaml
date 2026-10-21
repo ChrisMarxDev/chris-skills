@@ -1,4 +1,4 @@
 interface:
   display_name: "Chris Skills"
-  short_description: "Install selected skills from the Chris collection"
-  default_prompt: "Use $chris-skills to find relevant skills and install the selection agreed with me."
+  short_description: "Fetch skills and publish Christopher’s improvements"
+  default_prompt: "Use $chris-skills to fetch relevant skills or publish my reusable skill updates after verifying my GitHub account."
