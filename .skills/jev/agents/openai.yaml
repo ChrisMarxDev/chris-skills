@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jev"
+  short_description: "Use Jev through an Executor managed connection"
+  default_prompt: "Use $jev through Executor to classify this content or build a typed decision workflow."

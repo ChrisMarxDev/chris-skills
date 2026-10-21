@@ -53,7 +53,7 @@ System skills and plugin bundles should generally be supplied by their runtime.
 | `github-issue-flow` | Later batch | Includes installer, workflow assets, and tests; review the whole bundle before public import. |
 | `github-rebase-sync` → `git-sync` | Adapted | Current-branch commit/rebase/push workflow with remote verification and bounded race retries; standing rule in AGENTS.md. |
 | `i-have-adhd` | Opt-in | Reusable communication preference; choose deliberately whether to publish under this personal label. |
-| `jev` | Adapt | Uses a saved local key and fixed global skill paths; use portable script resolution and runtime secrets. |
+| `jev` | Adapted | Rewritten from Christopher’s local companion to use executor.sh tool discovery and managed connections; saved-key helpers are not imported. |
 | `persona` | Discuss | Interview/evaluation workflow with bundled reference; prefer this Codex variant over Claude copy. |
 | `remotion-best-practices` | Upstream | Reference bundle with many linked files; establish origin/version and preserve any local changes. |
 | `retro` | Hold | Requires writing-for-agents, not found in inspected standalone global roots; resolve dependency and origin. |
@@ -248,3 +248,14 @@ Public repository: [ChrisMarxDev/chris-skills](https://github.com/ChrisMarxDev/c
   and publish task-scoped reusable skill improvements after verifying the effective
   GitHub account is `ChrisMarxDev`. The global Codex copy mirrors this source.
   Canonical source: `https://github.com/ChrisMarxDev/chris-skills`.
+
+## Jev Executor adaptation (2026-10-21)
+
+`.skills/jev/` adapts Christopher's local Codex `jev` companion into a portable,
+Executor-based workflow. Connection instructions and the request envelope were
+checked against the connected Executor Jev tool schemas. Conceptual references
+link to TypeSafe's official live documentation; no upstream skill body is copied.
+The local `scripts/jev.py` and `scripts/batch.py` implement direct saved-key access
+and are deliberately replaced by Executor calls, not included as dependencies.
+Batch guidance requires actual durable checkpoints rather than promising the old
+local runner's behavior. The existing global installation is unchanged.
