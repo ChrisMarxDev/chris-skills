@@ -18,7 +18,8 @@ from this collection and publishes reusable skill improvements when authenticate
 as `ChrisMarxDev`. `dependency-comparison` ranks software dependencies using
 project fit, current evidence, and explicit weighted criteria. Further skills are
 under discussion. `jev` connects to Jev through executor.sh for typed judgments
-and batch workflows without local API keys. The public source is
+and batch workflows without local API keys. `bruno` maintains API collections,
+assertions, and request chains using OpenCollection YAML or existing Bru files. The public source is
 [ChrisMarxDev/chris-skills](https://github.com/ChrisMarxDev/chris-skills).
 The `.skills/` directory is our source layout;
 installation into the chosen cloud agent runtime will be handled separately.

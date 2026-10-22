@@ -268,3 +268,19 @@ The original workflow and metadata are preserved in
 `.skills/git-sync/references/repository-skill.md` and
 `repository-openai.yaml` for explicitly requested repository installations.
 The collection's own existing AGENTS.md policy remains an explicit local opt-in.
+
+## Bruno adaptation (2026-10-22)
+
+`.skills/bruno/` is adapted with Christopher's approval from his AgentBoard
+`.claude/skills/bruno/SKILL.md` (source project: `ChrisMarxDev/agentboard`). The
+source bundle contained only that entrypoint; no scripts, assets, or license files
+were present in the skill directory. No new license is asserted here.
+
+The adaptation removes AgentBoard-specific names and naming mandates, preserves
+existing Bru collections, moves YAML examples into a linked reference, corrects
+JSON reporting to `--reporter-json`, and makes recursion explicit with `-r`.
+It replaces mandatory GUI defaults with minimal examples and adds execution-scope,
+secret handling, prerequisite, and reporting guidance. Formats were checked against
+Bruno's official OpenCollection fixtures; flags against the installed CLI 3.2.2
+help and official CLI README. No live API requests were made for this import.
+The original project skill and global installations are unchanged.

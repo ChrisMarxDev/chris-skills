@@ -2,6 +2,7 @@
 
 | Skill | Purpose |
 |---|---|
+| [bruno](bruno/SKILL.md) | Create and run API collections, assertions, and request chains in Bruno. |
 | [bottleneck](bottleneck/SKILL.md) | Interview to identify the most important constraint on progress. |
 | [cli-first](cli-first/SKILL.md) | Prefer purpose-built command-line tools. |
 | [core-principles](core-principles/SKILL.md) | Check decisions against project principles. |
