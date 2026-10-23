@@ -43,3 +43,16 @@ Christopher on 2026-10-12.
 The skill lives in its source repository. Read the latest repository documentation
 for the current setup and installation instructions rather than relying on a
 copied snapshot. Confirm installation with the operator.
+
+## CMRX Video Toolkit — Christopher Marx
+
+[Source](https://github.com/ChrisMarxDev/cmrx-video-toolkit)
+
+Open tools and agent skills for programmable video: editing, components, shaders,
+and local production pipelines.
+
+**Status:** Added by Christopher on 2026-10-23; being developed further.
+
+The skills stay in the source repository. Read its latest documentation for the
+available skills, current setup, and installation instructions. Confirm the
+selected skills and installation scope with the operator.
