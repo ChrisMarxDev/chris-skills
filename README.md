@@ -8,7 +8,9 @@ The collection is public so others can use the workflows too.
 Skills live in [`.skills/`](.skills/). See [the publishing review](SKILLS_REVIEW.md)
 for the global inventory, suggested first batch, and portability work.
 [External skills](external-skills.md) lists skills by others that Christopher has
-vetted and recommends. [AGENTS.md](AGENTS.md) provides Codex project instructions.
+vetted and recommends. [Resources](resources.md) collects useful tools, libraries,
+and inspiration for design and development. [AGENTS.md](AGENTS.md) provides Codex
+project instructions.
 
 The first four skills are imported: `bottleneck`, `cli-first`, `core-principles`,
 and `taskfile`. `git-sync` is an inactive global placeholder with an opt-in repository template
