@@ -14,3 +14,15 @@ and [the skill collection](.skills/).
 - [Paper Shaders](https://shaders.paper.design/) — A collection of customizable
   shader effects, image filters, and logo animations for web designs, with a React
   package for integration.
+
+## AI and agent tools
+
+- [Executor](https://executor.sh/) — Connects agents to apps and tools through
+  managed account connections, with support for custom tools and automations.
+- [Fireworks AI](https://fireworks.ai/) — A platform for running and fine-tuning
+  open AI models, with inference APIs for applications.
+- [Jev by TypeSafe](https://docs.typesafe.ai/introduction) — A model for typed
+  decisions: evaluate state with structured questions for classification, scoring,
+  and routing, and receive results that code can use directly.
+- [Pi](https://pi.dev/) — A minimal coding agent harness that can be customized
+  with extensions, skills, prompt templates, and themes.
