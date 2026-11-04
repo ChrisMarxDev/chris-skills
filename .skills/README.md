@@ -2,6 +2,7 @@
 
 | Skill | Purpose |
 |---|---|
+| [artifact-hygiene](artifact-hygiene/SKILL.md) | Attribute external scratch files, declare retention and clean up owned artifacts. |
 | [bruno](bruno/SKILL.md) | Create and run API collections, assertions, and request chains in Bruno. |
 | [bottleneck](bottleneck/SKILL.md) | Interview to identify the most important constraint on progress. |
 | [cli-first](cli-first/SKILL.md) | Prefer purpose-built command-line tools. |

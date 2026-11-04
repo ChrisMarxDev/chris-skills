@@ -284,3 +284,12 @@ secret handling, prerequisite, and reporting guidance. Formats were checked agai
 Bruno's official OpenCollection fixtures; flags against the installed CLI 3.2.2
 help and official CLI README. No live API requests were made for this import.
 The original project skill and global installations are unchanged.
+
+## Artifact hygiene — 2026-11-04
+
+New operator-requested, locally authored skill for external agent scratch files
+and disposable test environments. Generalized policy only: no private paths,
+session data, credentials or runtime artifacts are included. Global Codex rule
+is installed separately; skill installation alone is not an always-on guarantee.
+Markers declare scoped retention, not a background deletion service or permission
+to remove SDKs/user outputs/shared caches. No runtime dependencies or scripts.
