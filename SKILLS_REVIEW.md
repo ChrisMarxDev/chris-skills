@@ -284,3 +284,13 @@ secret handling, prerequisite, and reporting guidance. Formats were checked agai
 Bruno's official OpenCollection fixtures; flags against the installed CLI 3.2.2
 help and official CLI README. No live API requests were made for this import.
 The original project skill and global installations are unchanged.
+
+## Design system (2026-11-09)
+
+`.skills/design-system/` is newly authored from Christopher's supplied text of
+“Build the design system and skills your agent can follow” by @_heyrico. The
+original URL returned HTTP 403; the embedded video was not inspected. Attribution
+and adaptation boundaries are recorded in the bundle's `references/provenance.md`.
+No article body, upstream skill, or example code is redistributed. The workflow
+retains the five layers, makes example choices product-specific, and adds evidence
+tracking and verification guidance. Runtime installations are unchanged.

@@ -6,6 +6,7 @@
 | [bottleneck](bottleneck/SKILL.md) | Interview to identify the most important constraint on progress. |
 | [cli-first](cli-first/SKILL.md) | Prefer purpose-built command-line tools. |
 | [core-principles](core-principles/SKILL.md) | Check decisions against project principles. |
+| [design-system](design-system/SKILL.md) | Build agent-readable design systems and review screens against them. |
 | [git-sync](git-sync/SKILL.md) | Inactive global placeholder; install the real workflow only into an explicitly chosen repository. |
 | [skill-finder](skill-finder/SKILL.md) | Find skills on skills.sh and install after operator consultation. |
 | [chris-skills](chris-skills/SKILL.md) | Fetch selected skills and publish task-scoped improvements as ChrisMarxDev. |
