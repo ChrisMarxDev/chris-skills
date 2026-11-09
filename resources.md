@@ -6,6 +6,9 @@ and [the skill collection](.skills/).
 
 ## Design
 
+- [AI for UI](https://aiforui.dev/) — Emil Kowalski’s course and resources for
+  designers and engineers building interfaces with AI, including UI skills and
+  workflows for directing, reviewing, and polishing the output.
 - [fontzz](https://fontzz.vercel.app/) — Original type families with weights from
   100 to 900, available under the SIL Open Font License.
 - [ASCII Magic](https://www.ascii-magic.com/) — Browser-based tool for turning
