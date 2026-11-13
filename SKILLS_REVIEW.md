@@ -294,3 +294,10 @@ and adaptation boundaries are recorded in the bundle's `references/provenance.md
 No article body, upstream skill, or example code is redistributed. The workflow
 retains the five layers, makes example choices product-specific, and adds evidence
 tracking and verification guidance. Runtime installations are unchanged.
+
+## Stageshow reference — 2026-11-13
+
+Christopher requested Benji Taylor’s Stageshow as a resource. Added its article,
+upstream skill and scoped installation example to external-skills.md after
+reviewing upstream SKILL.md 1.1.1 and the framing/craft references. No upstream
+kit, skill body or project-specific assets are copied or installed.

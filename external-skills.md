@@ -56,3 +56,28 @@ and local production pipelines.
 The skills stay in the source repository. Read its latest documentation for the
 available skills, current setup, and installation instructions. Confirm the
 selected skills and installation scope with the operator.
+
+## Stageshow — Benji Taylor
+
+[Introduction and examples](https://benji.org/stageshow) ·
+[Upstream skill](https://github.com/benjitaylor/skills/tree/main/stageshow)
+· Skill name: `stageshow`
+
+**Status:** Requested by Christopher as a reusable resource on 2026-11-13.
+Reviewed upstream SKILL.md version 1.1.1, including framing and craft guidance.
+
+Builds believable product UI illustrations and short demos for marketing pages.
+Useful for deliberate framing, focused stories, readable product shots and a
+separate compact composition for mobile instead of shrinking desktop UI.
+Apply the product’s own design system and keep real screenshots identified as
+such; an authored mock demo is not evidence of a live product interaction.
+
+Install from the original source after choosing agent and installation scope:
+
+```sh
+npx skills add benjitaylor/skills --skill stageshow --agent codex
+```
+
+The upstream kit uses React and CSS; review its dependencies and license before
+copying a bundle. This entry saves the reference only and does not install or
+redistribute the skill.
